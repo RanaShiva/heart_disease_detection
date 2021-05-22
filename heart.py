@@ -9,10 +9,6 @@ from sklearn.neighbors import KNeighborsClassifier
 df = pd.read_csv('/home/shiva-rana/ml_in_healthcare/heart.csv')
 
 from sklearn.model_selection import train_test_split
-# from sklearn.preprocessing import StandardScaler
-# standardScaler = StandardScaler()9
-# columns_to_scale = ['age', 'trestbps','chol','thalach','oldpeak']
-# df[columns_to_scale] = standardScaler.fit_transform(df[columns_to_scale])
 
 cols=['age', 'trestbps','chol','thalach','oldpeak']
 y=df.target
